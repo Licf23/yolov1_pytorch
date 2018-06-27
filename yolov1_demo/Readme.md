@@ -12,7 +12,7 @@ This is a yolov1 demo by pytorch,I use the base net from the original struction.
 -------------
 1.Download voc2012 train dataset.<br>
 2.Download voc2007 test dataset.<br>
-3.Convert xml annotations to .txt file,like [voc2012.txt](https://github.com/Licf23/yolov1_demo/raw/master/dataset/voc2012.txt).<br>
+3.Convert xml annotations to .txt file,like [voc2012.txt](https://github.com/Licf23/yolov1_pytorch/blob/master/yolov1_demo/dataset/voc2012.txt).<br>
 3.Train Model<br>
 -------------
 Run python train.py<br>
@@ -25,11 +25,11 @@ You also need to change the path,including image path and model dirs.For more de
 5.Results<br>
 -------------
 First,I draw the training loss and validate loss as follows.<br>
-![](https://github.com/Licf23/yolov1_demo/raw/master/results/loss.png)
+![](https://github.com/Licf23/yolov1_pytorch/blob/master/yolov1_demo/results/loss.png)
 Then,Show you the predict result in TrainSet.For more results you could visit [train_val_results](https://github.com/Licf23/yolov1_demo/raw/master/results/train_val_results).<br>
-![](https://github.com/Licf23/yolov1_demo/raw/master/results/train_val_results/2009_004681.jpg)<br>
-And in ValidationSet.Also visit [test_val_results](https://github.com/Licf23/yolov1_demo/raw/master/results/test_val_results).<br>
-![](https://github.com/Licf23/yolov1_demo/raw/master/results/test_val_results/2011_004581.jpg)<br>
+![](https://github.com/Licf23/yolov1_pytorch/blob/master/yolov1_demo/results/train_val_results/2009_004681.jpg)<br>
+And in ValidationSet.Also visit [test_val_results](https://github.com/Licf23/yolov1_pytorch/tree/master/yolov1_demo/results/test_val_results).<br>
+![](https://github.com/Licf23/yolov1_pytorch/blob/master/yolov1_demo/results/test_val_results/2011_004581.jpg)<br>
 6.Discussion<br>
 --------------
 As you see the results are not satisfied,especially the pictures including multitargets.<br>
