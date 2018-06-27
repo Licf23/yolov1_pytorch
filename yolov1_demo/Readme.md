@@ -30,7 +30,7 @@ You also need to change the path,including image path and model dirs.For more de
 5.Results<br>
 -------------
 First,I draw the training loss and validate loss as follows.<br>
-![](https://github.com/Licf23/yolov1_pytorch/blob/master/yolov1_demo/results/loss.png)
+![](https://github.com/Licf23/yolov1_pytorch/blob/master/yolov1_demo/results/loss.png)<br>
 Then,Show you the predict result in TrainSet.For more results you could visit [train_val_results](https://github.com/Licf23/yolov1_demo/raw/master/results/train_val_results).<br>
 ![](https://github.com/Licf23/yolov1_pytorch/blob/master/yolov1_demo/results/train_val_results/2009_004681.jpg)<br>
 And in ValidationSet.Also visit [test_val_results](https://github.com/Licf23/yolov1_pytorch/tree/master/yolov1_demo/results/test_val_results).<br>
